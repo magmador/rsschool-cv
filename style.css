@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.column {
+  padding: 10px;
+  color: aliceblue;
+}
+
+.column.one {
+  background: #23345c;
+  width: 35%;
+}
+
+.column.two {
+  background: #e5e5e5;
+  width: 65%;
+}
+
+.headtop {
+  display: flex;
+  position: relative;
+  height: 200px;
+  width: 890px;
+  top: 20px;
+  background-color: #48e0f1;
+  font: 600 40px "Roboto", sans-serif;
+  box-shadow: -5px 5px 5px 0px rgb(40, 40, 40);
+}
+
+.name {
+  padding-top: 45px;
+  padding-left: 150px;
+  display: inline-block;
+  width: 70%;
+}
+
+.name p {
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 23px;
+}
+
+.photo {
+  width: 30%;
+}
+
+.myImg {
+  width: 67%;
+}
+
+.mySkillsContactsContainer {
+  top: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font: 600 30px "Roboto", sans-serif;
+  color: rgb(56, 56, 56);
+  width: 100%;
+}
+
+.figureOne {
+  height: 35px;
+  width: 250px;
+  background-color: #e5e5e5;
+  margin-left: -10px;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 0 40px 40px 0;
+}
+
+.figureTwo {
+  height: 35px;
+  width: 250px;
+  background-color: #e5e5e5;
+  margin-left: -10px;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 0 40px 40px 0;
+}
+
+.skills {
+  padding-left: 10px;
+  height: 100px;
+}
+
+.contentSkills {
+  margin-left: 10px;
+}
+
+.paraSkills,
+.contacts {
+  font-size: 16px;
+  font-weight: 400;
+  color: #e5e5e5;
+  line-height: 1.4;
+}
+
+.bold {
+  font-weight: 700;
+  padding-top: 10px;
+  color: #7e48f1;
+  text-align: center;
+}
+.padTop {
+  padding-top: 20px;
+}
+
+.contacts p {
+  width: 290px;
+  line-height: 1.6;
+  text-align: center;
+}
+.paraSkills.padTop {
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+/*RIGHT COLUMN*/
+
+.column.two {
+  padding-top: 200px;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 90px;
+}
+
+.figureThree {
+  height: 35px;
+  width: 400px;
+  background-color: #d53c3c;
+  font: 600 30px "Roboto", sans-serif;
+  color: #e5e5e5;
+  text-align: center;
+  border-radius: 40px 0 0 40px;
+}
+
+.textAboutMe {
+  padding-top: 20px;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+  font: 600 30px "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(56, 56, 56);
+  line-height: 1.4;
+}
+
+.figureFour {
+  margin-top: 30px;
+  height: 35px;
+  width: 400px;
+  background-color: #15ad52;
+  font: 600 30px "Roboto", sans-serif;
+  color: #e5e5e5;
+  text-align: center;
+  border-radius: 40px 0 0 40px;
+}
+
+.textCode {
+  margin-top: 30px;
+  padding-right: 50px;
+  color: rgb(56, 56, 56);
+  font-size: 16px;
+}
