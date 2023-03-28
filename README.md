@@ -1,1 +1,1 @@
-# rsschool-cv
+https://magmador.github.io/rsschool-cv/cv.md
