@@ -1,5 +1,5 @@
 * Антон Юшманов
-* https://www.linkedin.com/anton-yushmanov/
+* https://www.linkedin.com/anton-yushmanov/; antoxa327@gmail.com
 * Хочу научиться писать код на js и верстать сайты
 * Я работаю системным разработчиком, разрабатываю роутеры. Основной набор языков это С, python, C++
 * На https://github.com/magmador можно посмотреть примеры кода
